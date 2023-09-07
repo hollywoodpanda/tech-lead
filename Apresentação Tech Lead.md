@@ -11,37 +11,91 @@ https://www.harrisonclarke.com/blog-2023/what-it-takes-to-become-a-technical-lea
 
 Precisamos estar antenados em novas ferramentas, paradigmas, estratégias... Ser aberto, estar disposto a novos desafios, buscar ideias inovativas e lidar com dificuldades de forma criativa e concisa são qualidades que vão te ajudar a "abrir o mato pro time passar".
 
-2. Disposição à aprender
-3. Responsabilidade e autossuficiência
-4. Encorajar aprendizado
-5. Abraçar desafios
-6. Escuta efetiva
-7. Liderar por exemplo
+2. Disposição a aprender
 
+Curiosidade e desejo de aprender são sinais de maturidade e potencialização de crescimento. O mundo da tecnologia está em constante evolução e é importante o Tech Lead promover essa evolução com o time.
+
+3. Responsabilidade e autossuficiência
+
+O Tech Lead precisa ser capaz de resolver problemas muitas vezes de forma independente, autônoma e com responsabilidade. Um bom Tech Lead não só vai resolver os problemas, mas vai promover a autossuficiência e responsabilidade do time para resolver problemas.
+
+4. Encorajar aprendizado
+
+Cabe ao Tech Lead não somente estar disposto a aprender, mas em promover e encorajar seus liderados a aprenderem. O Tech Lead é um exemplo e guia de aprendizado e evolução no time.
+
+5. Abraçar desafios (precisamos lidar com desconforto)
+
+Ser Tech Lead é estar orientado ao crescimento, e crescimento vem com desafios, quando somos capazes de nos adaptar à situações e mudanças. O Tech Lead precisa estar disposto a lidar com o desconforto do desconhecido e conquistar o time nesses desafios.
+
+6. Escuta efetiva
+
+Ouvir é o ato de receber o som, escutar é o ato de prestar atenção no som, entender é o ato de compreender o som. A escuta efetiva é dispor de sua atenção para ouvir, escutar e entender o outro. Só com escuta efetiva vamos entender os desafios e dores que o time tá sentindo. Só podemos ajudar quando sabemos efetivamente o que precisa de ajuda.
+
+1. Liderar por exemplo
+
+Bons líderes não somente ditam recomendações para o time, como também seguem e respeitam essas mesmas recomendações. O Tech Lead possivelmente é um dev que inspirou o time, seja com sua performance, com suas ideias ou iniciativas - e com isso adquiriu autoridade e foi promovido a Tech Lead. E lembrando que "Líder Técnico" tem "técnico", mas tem "líder" também. É preciso conhecimento técnico e liderança.
 
 https://medium.com/criteo-engineering/your-first-90-days-as-a-tech-lead-f975967f5d2d
 
 1. Construir e propagar a visão (motivação e objetivos)
+
+É papel do Tech Lead promover e imbuir a visão e cultura da empresa no time. Quando entendemos onde precisamos chegar, chegamos lá mais rápido, temos o mapa. E como guia do time, o Tech Lead auxilia na compreensão dos objetivos, das melhores práticas e da cultura para o time.
+
+Lembre-se de conversar com o time, com os outros times, com a gerência, com outros devs - importante desvendarmos os objetivos, práticas e cultura juntos. O Tech Lead é o guia, não é o dono da visão.
+
 2. Aprender a delegar
+
+Você está num time, vai conquistar mais se "todos estiverem cuidando das muitas necessidades do barco para navegarmos numa determinada direção".
+
+Confie no time e pratique delegar oportunidades e desafios. O time vai se sentir mais engajado e motivado e faremos mais num ambiente melhor.
+
+Lembre-se de acompanhar e prover *feedback* para o time. É importante ajudarmos o time a evoluir e sanar dificuldades. Seja transparente, justo e ouça. Feedback é o instrumento para evoluirmos! 
+
 3. Procurar por feedback
+
+Importante sabermos também se estamos trilhando o caminho certo e quais as oportunidades de melhorarmos. Precisamos buscar feedback da gerência, área de negócio e do time. Só assim vamos saber quais as prioridades e oportunidades de melhoria direto de quem tá vivenciando e enxergando nosso trabalho.
+
 4. Saber lidar com situações difíceis
+
+Vão haver situações difíceis. Em alguns casos vamos ter que ouvir bronca, algumas vezes com razão outras sem. Pode ser que venhamos a lidar com situações de injustiça, ou pessoas que já estão carregadas pela emoção e não necessariamente estão considerando uma solução ou visão de forma racional. Essa pessoa pode ser nós mesmos! Importante sabermos lidar com situações difíceis e cabeludas.
+
+Importante promovermos um ambiente em que é seguro errar, e, quando erramos, precisamos receber o *feedback* apropriado, que vai nos fazer crescer, melhorar. Então delegue, permita que a pessoa erre e lide corretamente com o erro. O time precisa andar, cair, conseguir levantar e terminar o percurso. O Tech Lead é o promotor desse espaço.
+
 5. Ajudar a construir carreiras
+
+Você é o mentor técnico do time, exerce um papel de liderança e tem experiência. Você é o cara para ajudar os devs a crescerem e evoluirem suas carreiras.
+
+Veja o que a empresa já promove em construção de carreiras e use isso a favor do time. Se não houver algo assim na empresa, promova você mesmo! Crie um plano de carreira, incentive o time a buscar certificações, cursos, treinamentos, conhecimento, etc. Ajude-os a alavancar suas carreiras.
 
 https://www.ironhack.com/uk/en/blog/what-is-a-tech-lead
 
 - toma decisões de arquitetura e design de software
 
+Como Tech Lead você vai ajudar seu time a encontrar o melhor pattern e arquitetura para determinado problema, considerando as ferramentas à disposição. O time vai precisar da sua experiência para ser o mais assertivo possível no planejamento, ganhando eficiência e agilidade quando alcançar o desenvolvimento.
+
 - guia o time em assuntos técnicos
+
+Você é o guia, a lanterna que liga quando o time entra na escuridão. É importante incentivar o diálogo, a discussão no time. É importante que o time tenha autonomia e voz, mas quando a voz faltar, ou a dúvida imperar, o Tech Lead precisa estar lá para guiar o time no desconhecido, usar sua experiência para que a busca de informação ou solução seja mais rápida e didática.
 
 - supervisiona funcionalidades e mudanças nos sistemas
 
-- Desenha especificações de projeto e direção técnica
+O aspecto técnico do que entra e muda deve ser supervisionado pelo Tech Lead para aumentar a rede de segurança do time. A experiência do Tech Lead é imperativa para ajudar o time com *code reviews*, com a organização do repositório, com os processos de deploy e rollback dentre muitas operações e processos críticos na jornada de desenvolvimento. Sua visão macro auxilia na compreensão de como as coisas se encaixam e como as mudanças e novas funcionalidades podem ser um risco de instabilidade ou disrupção.
+
+- Desenha especificações de projeto e dá a direção técnica
+
+O Tech Lead não é e nem deve ser o único atuando no desenho de especificação ou dando a direção técnica do time, mas é o guia e organizador dessas atividades. O Tech Lead deve promover o diálogo e a discussão no time e se encarregar e se responsabilizar pelos desenhos de especificação e a direção técnica que o time vai seguir - **sua participação no processo é obrigatória**.
 
 - Garante qualidade de código e padrões
 
+O tech Lead deve garantir que a qualidade e os padrões do time estão sendo seguidos, respeitados e atingidos. É responsabilidade de todo o time atender os padrões e a qualidade, mas é responsabilidade do Tech Lead garantir que isso está sendo feito e promover o processo.
+
 - Análise de riscos em operações existentes e novas
 
+A sua experiência e conhecimento são importantes para ajudar o time a investigar e identificar possibilidades de riscos em operações que já existem (revisão e acompanhamento) e novas (planejamento).
+
 - Auxílio no desenvolvimento de funcionalidades e correções
+
+O Tech Lead deve ser a mão acolhedora, que serve o time e ajuda quando ajuda é necessária. Seja ajuda com processo, código, arquitetura, design, etc. O Tech Lead é o maestro servidor que ajuda o time a tocar, no que for. O foco é entrega com qualidade e eficiência.
 
 ## Precisamos de um Tech Lead?
 
@@ -66,8 +120,23 @@ vvgomes.com/we-dont-need-tech-leads/
 ### O Tech Lead é um facilitador de Líderes, o que abre portas
 
 - Se chega alguém novo no time, o time precisa de um **TREINADOR**
+
+https://www.linkedin.com/pulse/onboarding-dos-times-de-desenvolvimento-francisco-barroso/?originalSubdomain=pt
+
+Alguém que vai treinar o novo membro do time nas ferramentas, processos, cultura, etc. do time. Alguém que vai ajudar o novo membro a se sentir confortável e fazê-lo sentir-se parte do time.
+
 - Se há desafios de arquitetura, o time precisa de um **ARQUITETO** experiente
+
+https://www.simplilearn.com/tutorials/software-career-resources/how-to-become-a-software-architect
+
+Alguém que vai criar planos, desenhos técnicos e bolar soluções para os desafios arquiteturais de um projeto. Vai ajudar com processos, ferramentas, tecnologias e no plano para o time seguir.
+
 - Quando há conflitos internos, o time precisa de um **MEDIADOR**
+
+TODO: Explicar o que é um líder mediador!
+
+https://mediationblog.kluwerarbitration.com/2019/07/30/mediation-and-leadership/
+
 - Quando há bloqueios externos ou falta de recursos, o time precisa de um **MORDOMO**
 - Quando precisa-se negociar e integrar-se com outros times, precisamos de um **EMBAIXADOR**.
 
