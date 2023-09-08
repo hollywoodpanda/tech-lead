@@ -22,20 +22,25 @@
     - [Garante qualidade de código e padrões](#garante-qualidade-de-código-e-padrões)
     - [Análise de riscos em operações existentes e novas](#análise-de-riscos-em-operações-existentes-e-novas)
     - [Auxílio no desenvolvimento de funcionalidades e correções](#auxílio-no-desenvolvimento-de-funcionalidades-e-correções)
+    - [Defende o time e o produto](#defende-o-time-e-o-produto)
   - [Precisamos de um Tech Lead? (Pra que serve)](#precisamos-de-um-tech-lead-pra-que-serve)
-    - [Riscos pro Tech Lead](#riscos-pro-tech-lead)
-    - [Riscos pro time](#riscos-pro-time)
+    - [Ser Tech Lead traz alguns riscos.](#ser-tech-lead-traz-alguns-riscos)
+      - [Riscos pro Tech Lead](#riscos-pro-tech-lead)
+    - [Ter um Tech Lead pode trazer alguns riscos pro time.](#ter-um-tech-lead-pode-trazer-alguns-riscos-pro-time)
+      - [Riscos pro time](#riscos-pro-time)
     - [O Tech Lead é um facilitador de Líderes, o que abre portas](#o-tech-lead-é-um-facilitador-de-líderes-o-que-abre-portas)
       - [Se chega alguém novo no time, o time precisa de um **TREINADOR**](#se-chega-alguém-novo-no-time-o-time-precisa-de-um-treinador)
       - [Se há desafios de arquitetura, o time precisa de um **ARQUITETO** experiente](#se-há-desafios-de-arquitetura-o-time-precisa-de-um-arquiteto-experiente)
       - [Quando há conflitos internos, o time precisa de um **MEDIADOR**](#quando-há-conflitos-internos-o-time-precisa-de-um-mediador)
+      - [Quando há bloqueios externos ou falta de recursos, o time precisa de um **MORDOMO**](#quando-há-bloqueios-externos-ou-falta-de-recursos-o-time-precisa-de-um-mordomo)
+      - [Quando precisa-se negociar e integrar-se com outros times, precisamos de um **EMBAIXADOR**.](#quando-precisa-se-negociar-e-integrar-se-com-outros-times-precisamos-de-um-embaixador)
   - [O lado ruim da liderança técnica 😈](#o-lado-ruim-da-liderança-técnica-)
     - [Raramente codamos 😪](#raramente-codamos-)
     - [Mudança de Contexto 😵‍💫](#mudança-de-contexto-)
       - [Nível Easy 👶](#nível-easy-)
       - [Nível Médio 👨](#nível-médio-)
       - [Nível Hard 💪](#nível-hard-)
-      - [E o que fazer para controlar o custo ou quando atingimos o limite? 🤯](#e-o-que-fazer-para-controlar-o-custo-ou-quando-atingimos-o-limite-)
+      - [E o que fazer para controlar o custo da troca de contexto, ou quando atingimos o limite? 🤯](#e-o-que-fazer-para-controlar-o-custo-da-troca-de-contexto-ou-quando-atingimos-o-limite-)
     - [Voltou a ser júnior quando virou Tech Lead 👶](#voltou-a-ser-júnior-quando-virou-tech-lead-)
       - [Como dev você tinha o apoio do Tech Lead](#como-dev-você-tinha-o-apoio-do-tech-lead)
     - [Trabalhar com pessoas 🧑‍🎨👨🧟‍♀️🧜‍♀️🙎‍♀️](#trabalhar-com-pessoas-️️️)
@@ -46,6 +51,7 @@
     - [Reconhecimento e Avanço na Carreira 🙌](#reconhecimento-e-avanço-na-carreira-)
   - [Conclusão 🏁](#conclusão-)
   - [Referências 🛜](#referências-)
+  - [Agradecimentos](#agradecimentos)
 
 
 ## Quem sou eu?
@@ -58,7 +64,7 @@ Há alguns anos atuo como desenvolvedor e líder técnico para a Claro, uma das 
 
 No último time que atuei como dev eu era fullstack (nodejs + javascript + aws lambda no back | angular + java android no front). Me tornei Tech Lead do time por um ou dois anos.
 
-Daí veio um desafio bem legal, nosso time iria unificar aplicativos diferentes num só. Mas não deu certo. O projeto perdeu força e eu fui alocado como Tech Lead de dois times de assistentes virtuais - o time do canal Appbot e o time que centralizava as chamadas de api de todos os assistentes virtuais (Appbot, Whatsapp, etc.).
+Daí veio um desafio bem legal, nosso time iria unificar aplicativos diferentes num só. Mas não deu certo. O projeto perdeu força. e eu fui alocado como Tech Lead de dois times de assistentes virtuais - o time do canal Appbot e o time que centralizava as chamadas de api de todos os assistentes virtuais (Appbot, Whatsapp, etc.).
 
 Hoje sou *Tech Lead* de três times na Claro e *Performance Manager* de quatro devs na Accurate.
 
@@ -80,15 +86,15 @@ Precisamos estar antenados em novas ferramentas, paradigmas, estratégias... Ser
 
 ### Disposição a aprender
 
-Curiosidade e desejo de aprender são sinais de maturidade e potencialização de crescimento. O mundo da tecnologia está em constante evolução e é importante o Tech Lead promover essa evolução com o time.
+Curiosidade e desejo de aprender são sinais de maturidade e potencialização de crescimento. O mundo da tecnologia está em constante evolução, sempre vai ter coisa nova para aprendermos.
 
 ### Responsabilidade e autossuficiência
 
-O Tech Lead precisa ser capaz de resolver problemas muitas vezes de forma independente, autônoma e com responsabilidade. Um bom Tech Lead não só vai resolver os problemas, mas vai promover a autossuficiência e responsabilidade do time para resolver problemas.
+O Tech Lead precisa ser capaz de resolver problemas muitas vezes de forma independente, autônoma e com responsabilidade. Um bom Tech Lead não só vai em agumas situações resolver os problemas, mas também promover a autossuficiência e responsabilidade do time para resolver problemas.
 
 ### Encorajar aprendizado
 
-Cabe ao Tech Lead não somente estar disposto a aprender, mas em promover e encorajar seus liderados a aprenderem. O Tech Lead é um exemplo e guia de aprendizado e evolução no time.
+Cabe ao Tech Lead não somente estar disposto a aprender, mas em promover e encorajar seus liderados a aprenderem. O Tech Lead é um exemplo e guia de aprendizado e evolução no time. Ele não só deve estar disposto a aprender, como também deve promover a cultura de aprendizado no time.
 
 ### Abraçar desafios (precisamos lidar com desconforto)
 
@@ -96,7 +102,11 @@ Ser Tech Lead é estar orientado ao crescimento, e crescimento vem com desafios,
 
 ### Escuta efetiva
 
-Ouvir é o ato de receber o som, escutar é o ato de prestar atenção no som, entender é o ato de compreender o som. A escuta efetiva é dispor de sua atenção para ouvir, escutar e entender o outro. Só com escuta efetiva vamos entender os desafios e dores que o time tá sentindo. Só podemos ajudar quando sabemos efetivamente o que precisa de ajuda.
+1. Ouvir é o ato de receber o som
+2. Escutar é o ato de prestar atenção no som
+3. Entender é o ato de compreender o som. 
+   
+A escuta efetiva é dispor de sua atenção para ouvir, escutar e entender o outro. Só com escuta efetiva vamos entender os desafios e dores que o time tá sentindo - e pra ajudar precisamos saber no quê, com o quê. Só vamos conseguir ajudar se soubermos efetivamente o que precisa de ajuda.
 
 ### Liderar por exemplo
 
@@ -160,11 +170,19 @@ A sua experiência e conhecimento são importantes para ajudar o time a investig
 
 O Tech Lead deve ser a mão acolhedora, que serve o time e ajuda quando ajuda é necessária. Seja ajuda com processo, código, arquitetura, design, etc. O Tech Lead é o maestro servidor que ajuda o time a tocar, no que for. O foco é entrega com qualidade e eficiência.
 
+### Defende o time e o produto
+
+Quando o time sofre injustiça o Tech Lead deve defender o time. Quando alguma solução tecnicamente problemática está sendo considerada, é papel do Tech Lead defender a saúde do produto, ter coragem para dizer 'não'. Muitas vezes temos que aceitar ou contornar um débito técnico. Imagine que pecisamos entregar determinada funcionalidade ou levamos multa regulatória e podemos parar de operar. Para a entrega temos débitos técnicos, mas agilidade para atender a questão regulatória - esse é um caso que talvez o Tech Lead deva ceder e considerar agora a resolução futura desses débitos. 
+
+Nem toda briga você vai ou deve ganhar, mas muitas vezes é preciso brigar.
+
 ## Precisamos de um Tech Lead? (Pra que serve)
 
-A mera existência de um Tech Lead no time traz possíveis benefícios e malefícios.
+A mera existência de um Tech Lead no time traz possíveis benefícios e malefícios. Um time que já funciona sem Tech Lead há um tempo, com papeis bem definidos e funcionando bem pode ter problemas com a chegada do Tech Lead, com centralização de coisas que funcionam muito bem distribuídas no time. Outros times que estão com problemas em processos, descobrimentos e planejamento podem se beneficiar muito com a chegada de um Tech Lead.
 
-### Riscos pro Tech Lead
+### Ser Tech Lead traz alguns riscos.
+
+#### Riscos pro Tech Lead
 
 - Sobrecarga de atividades
 - Falta de foco nos detalhes por conta da constante mudança de contexto
@@ -173,7 +191,9 @@ A mera existência de um Tech Lead no time traz possíveis benefícios e malefí
 - Distância - Tech Lead longe do time
 - Expulso da Tribo - Tech Lead já não é visto como um membro do time
 
-### Riscos pro time
+### Ter um Tech Lead pode trazer alguns riscos pro time.
+
+#### Riscos pro time
 
 - Falta senso de propriedade coletiva - Decisões críticas não são coletivas
 - Gargalos - Todas as decisões precisam passar pelo Tech Lead
@@ -182,9 +202,11 @@ A mera existência de um Tech Lead no time traz possíveis benefícios e malefí
 
 ### O Tech Lead é um facilitador de Líderes, o que abre portas
 
+Muitos devs no time vão ter características de liderança e é super importante promovermos e fomentarmos essas características e atitudes de liderança no time. Onde você Tech Lead tá enrolado demais para atender, um dev do time pode ir lá e resolver. Um bom Tech Lead promove e cria Tech Leads no time!
+
 #### Se chega alguém novo no time, o time precisa de um **TREINADOR**
 
-Alguém que vai treinar o novo membro do time nas ferramentas, processos, cultura, etc. do time. Alguém que vai ajudar o novo membro a se sentir confortável e fazê-lo sentir-se parte do time.
+Alguém que vai treinar o novo membro do time nas ferramentas, processos, cultura, etc. do time. Vai ajudar o novo membro a se sentir parte do time e ficar a vontade.
 
 #### Se há desafios de arquitetura, o time precisa de um **ARQUITETO** experiente
 
@@ -202,19 +224,19 @@ Tendo em vista o contexto adaptativo dos desafios, as decisões que o líder tom
 
 O time tem domínio dos assuntos em que trabalham, aproveite isso! O Tech Lead é o facilitador, o mediador, o que vai ajudar o time a encontrar as respostas.
 
-Muitas vezes, nas discussões, opiniões divergem e há muita frustração em lidar com divergências. O calor pode esquentar, mas o Tech Lead deve manter a calma, controlar a temperatura da discussão, permitir que opiniões sejam ouvidas com respeito e que facções do time que pensem diferente possam aprender umas com as outras, e com isso chegar numa solução juntos. O time pode ter dificuldade em lidar com situações difíceis, o Tech Lead tem que estar atento e trazer o time para a discussão, garantir que o time está verbalizando opiniões e temos propriedade coletiva do problema e da solução.
+Muitas vezes, nas discussões, opiniões divergem e há muita frustração em lidar com divergências. O calor pode esquentar, mas o Tech Lead deve manter a calma, controlar a temperatura da discussão, permitir que opiniões sejam ouvidas com respeito e que, facções do time que pensem diferente, possam aprender umas com as outras e chegar numa solução juntas. O time pode ter dificuldade em lidar com situações difíceis, o Tech Lead tem que estar atento e trazer o time para a discussão, garantir que o time está verbalizando opiniões e que temos propriedade coletiva do problema e da solução.
 
-Mediar é ouvir. É dar atenção e respeito para a opinião do liderado. É criar uma rede de segurança no time em que todos confiam que podem dar suas opiniões, mesmo que divergentes, e seremos ouvidos com respeito, mesmo que nossa ideia não seja a escolhida.
+Mediar é ouvir. É dar atenção e respeito para a opinião do liderado. É criar uma rede de segurança no time em que todos confiam que podem dar suas opiniões, mesmo que divergentes, e que seremos ouvidos com respeito, mesmo que nossa ideia não seja escolhida ou atendida.
 
-- Quando há bloqueios externos ou falta de recursos, o time precisa de um **MORDOMO**
+#### Quando há bloqueios externos ou falta de recursos, o time precisa de um **MORDOMO**
 
-O time pode precisar da documentação de uma API que tá atrasada, sem ela não conseguem seguir, ou é necessário que outro time conclua o serviço deles, atrasado, para seguir - e ficam bloqueados. Nesse caso, podemos contar com o *Scrum Master* quando estivermos numa equipe ágil. Mas com ou sem *Scrum Master*, o Tech Lead costuma ser necessário no processo para entender as questões técnicas e colaborar melhor para o desbloqueio.
+O time pode precisar da documentação de uma API que tá atrasada, sem ela não conseguem seguir, ou é necessário que outro time conclua o serviço deles, atrasado, para seguir - e daí devs vão ficar bloqueados. Nesse caso, podemos contar com o *Scrum Master* quando estivermos numa equipe ágil para nos ajudar em alguns casos. Mas com ou sem *Scrum Master*, o Tech Lead costuma ser necessário no processo para entender as questões técnicas e colaborar melhor para o desbloqueio.
 
 Se faltam recursos, o Tech Lead pode bolar uma ideia de mocks, ou ambientes de testes, mesmo que não seja uma solução completa, algo que permita o time seguir no desenvolvimento. Ele é importante ao resolver problemas de recursos que vão surgindo.
 
-- Quando precisa-se negociar e integrar-se com outros times, precisamos de um **EMBAIXADOR**.
+#### Quando precisa-se negociar e integrar-se com outros times, precisamos de um **EMBAIXADOR**.
 
-Quando dois times, com culturas e processos possivelmente diferentes precisam negociar ou integrar-se, é alguém que vai entender as necessidades e dores de ambos os times. Alguém que promove um espaço de respeito e confiança na mescla de experiência, processos e aprendizados. A ponte entre os dois mundos.
+Quando dois times, com culturas e processos possivelmente diferentes precisam negociar ou integrar-se, é o líder embaixador que vai entender as necessidades e dores de ambos os times. Quem promove um espaço de respeito e confiança na mescla de experiência, processos e aprendizados. A ponte entre os dois mundos.
 
 ---
 
@@ -224,7 +246,7 @@ Quando dois times, com culturas e processos possivelmente diferentes precisam ne
 
 ### Raramente codamos 😪
 
-Maior parte do tempo é desbloqueando o time, participando de reuniões e desenhando soluções.
+Maior parte do tempo é desbloqueando o time, participando de reuniões (muitas, muitas reuniões) e desenhando soluções.
 
 Precisamos mudar o foco de ser melhor desenvolvedor para ser melhor líder técnico, atender o que o time precisa ao invés do que nós mesmos "precisamos".
 
@@ -238,11 +260,11 @@ Precisamos mudar o foco de ser melhor desenvolvedor para ser melhor líder técn
 
 ### Mudança de Contexto 😵‍💫
 
-São diversos tópicos, em diferentes graus de complexidade, e com necessidades diferentes. Algumas vezes a mudança de contexto é apenas intelectual, uma definição ou discussão - o que é mais fácil. Mas muitas vezes envolve tarefas manuais além do trabalho mental, que é mais difícil.
+São diversos tópicos, em diferentes graus de complexidade, e com necessidades diferentes. Algumas vezes a mudança de contexto é apenas intelectual, uma definição ou discussão - o que é mais fácil. Mas muitas vezes envolve tarefas manuais além do trabalho mental, que é mais difícil na hora de virar a chavinha de contexto.
 
 #### Nível Easy 👶
 
-A mudança de contexto pode ser simples quando estamos atuando numa outra linha de trablaho dentro do mesmo tópico. 
+A mudança de contexto pode ser simples quando estamos atuando numa outra linha de trabalho dentro do mesmo tópico. 
 
 POr exemplo, se eu mudei meu foco para documentação de um serviço depois de algum tempo fazendo testes unitários desse mesmo serviço, eu ainda estou no mesmo tópico, mas mudei o contexto da linha de trabalho. Essas mudanças de contexto são mais suaves, o assunto geral é o mesmo.
 
@@ -250,13 +272,13 @@ POr exemplo, se eu mudei meu foco para documentação de um serviço depois de a
 
 Em alguns casos nós vamos mudar de tópico, mas continuamos, por exemplo, na mesma linha de trabalho. Vou explicar.
 
-Imagine que estamos na fase de planejamento e estamos documentando planos de ação para as tarefas, dividindo-as quando estão muito complexas e estimando a complexidade delas. Pode ser que o Tech Lead esteja criando diagramas de sequência para parte do time com uma história que envolve compra por pix e, logo em seguida, precise fazer esse planejamento com outra parte do time que está desenvolvendo um bot que permite realizar recarga para sua linha. Apesar dos dois tópicos serem diferentes (recarga para sua linha e compras por pix), estamos atuando na mesma linha de trabalho (planejamento). O custo da mudança de contexto é maior aqui.
+Imagine que estamos na fase de planejamento e estamos documentando planos de ação para as tarefas, dividindo-as quando estão muito complexas e estimando a complexidade delas. Pode ser que o Tech Lead esteja criando diagramas de sequência para parte do time com uma história que envolve compra por pix e, logo em seguida, precise fazer esse planejamento com outra parte do time que está desenvolvendo um bot que permite realizar recarga para sua linha. Apesar dos dois tópicos serem diferentes (recarga para sua linha e compras por pix), estamos atuando na mesma linha de trabalho (planejamento). O custo da mudança de contexto é maior aqui, mas ainda é razoável.
 
 #### Nível Hard 💪
 
-Quando ocorre tanto a mudança do tópico quanto da linha de trabalho, as coisas ficam mais difíceis!
+Quando ocorre tanto a mudança do tópico quanto da linha de trabalho, as coisas ficam mais difíceis.
 
-Imagine o Tech Lead realizando o estudo de viabilidade de uma história que a área de negócio planejou. Ele está avaliando a complexidade, o plano de ação técnico, negociando capacity e custos operacionais. Além disso está documentando tudo isso. De repente surge um problema urgente e o Tech Lead é chamado para uma reunião: um serviço essencial (busca do perfil dos clientes por exemplo) caiu, operação quase inoperante. O custo de mudança de contexto nesse caso é bem alto. A **valsa** que os neurônios do Tech Lead estavam dançando agora é **lambada**.
+Imagine o Tech Lead realizando o estudo de viabilidade de uma história que a área de negócio planejou. Ele está avaliando a complexidade, o plano de ação técnico, negociando capacity e custos operacionais. Além disso está documentando tudo. De repente surge um problema urgente e o Tech Lead é chamado para uma reunião: um serviço essencial (busca do perfil dos clientes por exemplo) caiu, operação quase inoperante. O custo de mudança de contexto nesse caso é bem alto. A **valsa** que os neurônios do Tech Lead estavam dançando agora é **lambada**.
 
 Existe um meio de saber se o custo da mudança de contexto está atingindo o limite do Tech Lead:
 
@@ -264,17 +286,17 @@ Existe um meio de saber se o custo da mudança de contexto está atingindo o lim
 
 2. O Tech Lead está perdido em como iniciar algo que é super tranquilo e ele é capaz de fazer e finalizar.
 
-3. Muitas tasks simples, que poderiam ser feitas instantaneamente, estão paradas no backlog do Tech Lead.
+3. Muitas tasks simples, que poderiam ser feitas instantaneamente, estão paradas no backlog do Tech Lead. O Tech Lead está "estocando coisa instantânea".
 
-#### E o que fazer para controlar o custo ou quando atingimos o limite? 🤯
+#### E o que fazer para controlar o custo da troca de contexto, ou quando atingimos o limite? 🤯
 
 Organizar, priorizar e documentar suas tarefas vai facilitar a obtenção de *briefing* para um outro tópico ou linha de trabalho, minimizando o custo da transição de contexto.
 
-E o que fazer? Pare por um tempo! Tome um café ou faça uma pequena caminhada. Relaxe por um pequeno período para aliviar o custo da troca de contexto. Se você não tem esse tempo, é porque você está sobrecarregado e **precisa delegar ou pedir ajuda**.
+E o que fazer se chegamos no limite? Pare por um tempo! Tome um café ou faça uma pequena caminhada. Relaxe por um pequeno período para aliviar o custo da troca de contexto. Se você não tem esse tempo, é porque você está sobrecarregado e **precisa delegar ou pedir ajuda**.
 
-Use anotações (eu estou usando um Kanban no Notion e crio arquivos md com anotações de reuniões e assuntos)! Tenha em mãos do que se trata um assunto para estar mais preparado quando a troca de contexto ocorrer.
+Use anotações (eu estou usando um Kanban no Notion e crio arquivos md com anotações de reuniões e assuntos)! Tenha em mãos o *overview* do que se trata um assunto para estar mais preparado quando a troca de contexto ocorrer.
 
-Lembre-se que o foco deve estar nos devs agora. O seu dever como Tech Lead é garantir que eles tem esse tempo de foco, protegê-los. Muitas vezes, outros times ou área de negócio e gerência vão tentar puxá-los para reuniões, alinhamentos e você deve minimizar essas interrupções! Seja o escudo para o time focar.
+E não se desespere. Lembre-se que o foco deve estar nos devs agora. O seu dever como Tech Lead é **garantir que eles tem esse tempo de foco**, protegê-los. Muitas vezes, outros times ou área de negócio e gerência vão tentar puxá-los para reuniões, alinhamentos e você deve minimizar essas interrupções! Seja o escudo para o time focar.
 
 ### Voltou a ser júnior quando virou Tech Lead 👶
 
@@ -284,15 +306,15 @@ A síndrome de impostor pode pesar, mas coloque-se na posição de aprendiz e fa
 
 #### Como dev você tinha o apoio do Tech Lead
 
-Para decisões importantes e difíceis, o Tech Lead que bate o martelo. Podemos passar o fardo para ele. Agora esse fardo é seu.
+Para decisões importantes e difíceis, o Tech Lead que bate o martelo. Como dev podemos passar o fardo para ele. Agora esse fardo é seu, Tech Lead.
 
-O Tech Lead ajuda em situações que você não tem conhecimento de como as coisas acontecem (seja no ambiente de produção, contexto de algum problema que surgiu, legado confuso que precisamos olhar) e agora tudo isso é responsabilidade sua, o Tech Lead.
+Há situações que o dev não tem conhecimento de como as coisas acontecem (seja no ambiente de produção, contexto de algum problema que surgiu, legado confuso que precisamos olhar) e agora ajudar o time com essas indefinições é responsabilidade sua, o Tech Lead.
 
-Como resolver isso? Sendo sinceros e nos dispondo em evoluir. Vamos errar, estamos começando. Mas minha experiência diz que se estamos no caminho de evoluir quando erramos, cada erro vai ser um pouquinho menor sempre. E precisamos de um sistema que seja a rede de segurança para garantir que quando falhamos, o sistema pega! Esteiras de integração onde rodamos testes unitários, testamos qualidade do código, vulnerabilidades, etc. é de extrema importância, a rede de proteção na janela!
+E como resolver quando mesmo o Tech Lead não sabe resolver algo? Como Tech Lead, seja sincero e se disponha a evoluir. Você vai errar, está começando. Mas minha experiência diz que se estamos no caminho de evoluir quando erramos, cada erro vai ser um pouquinho menor sempre. E precisamos de um sistema que seja a rede de segurança para garantir que quando falhamos, o sistema pega! Esteiras de integração onde rodamos testes unitários, testamos qualidade do código, vulnerabilidades, etc. são de extrema importância. A rede de proteção na janela! Essa rede de proteção vai permitir que haja espaço para errar e evoluir num ambiente seguro para o time, para você Tech Lead e para o produto.
 
 Então, se surgir um problema que você não tenha a resposta ou não saiba como prosseguir, seja sincero! Peça ajuda para Tech Leads de outros times, para os arquitetos da sua empresa, para os devs sêniors que manjam do que você tá precisando. Pratique a humildade de não saber tudo e principalmente, de pedir ajuda!
 
-Documente processos e soluções para problemas comuns, uma base de conhecimento ajuda muito. Quando uma decisão rápida precisa ser tomada sobre alguma coisa, isso vai auxiliar com o contexto necessário para tomar uma decisão assertiva.
+E documente processos e soluções para problemas comuns, uma base de conhecimento ajuda muito. Quando uma decisão rápida precisa ser tomada sobre alguma coisa, isso vai auxiliar com o contexto necessário para tomar uma decisão assertiva quando não tivermos nada na ponta da língua.
 
 ### Trabalhar com pessoas 🧑‍🎨👨🧟‍♀️🧜‍♀️🙎‍♀️
 
@@ -300,16 +322,15 @@ Você vai ouvir, conversar e negociar bastante.
 
 Grande parte do tempo é entendendo alguma dor, algum plano, e facilitando uma solução para a dor, revisando ou desenhando o plano. 
 
-Muitos dos problemas que você vai enfrentar são de natureza técnica, mas você vai ter que convencer, apresentar e motivar pessoas a seguir e contribuir com o plano. 
+Muitos dos problemas que você vai enfrentar são de natureza técnica, mas você vai ter que convencer, apresentar e motivar **PESSOAS** a seguirem e contribuirem com o plano. 
 
-As vezes explicar e justificar problemas para pessoas que não vão ficar felizes em saberem do problema. 
+As vezes você terá que explicar e justificar problemas para pessoas que não vão ficar nada felizes em ouvirem o que você tem a dizer. 
 
-Em outras vezes você vai precisar ter conversas difíceis com seus liderados, passar feedbacks negativos. 
+Em outras vezes você vai precisar ter conversas difíceis com seus liderados, passar feedbacks negativos ou tomar alguma bronca por alguma falha que tenha cometido.
 
-Preocupe-se com o liderado e desafie-o diretamente, abra o caminho para o crescimento dele.
+Se o trabalho em conjunto é com um liderado, confie nele, preocupe-se e desafie-o diretamente. Abra o caminho para o crescimento dele. Se o trabalho é com um líder, confie nele, busque ajuda e a visão com ele.
 
-É importante e essencial comunicar-se, manter um diálogo adequado promovendo a discussão saudável e resolução do problema ou assunto tratado. É preciso focar na solução e lidar as vezes com situações de stress ou injustiça com profissionalismo, mantendo tom ético e respeitoso. É preciso ter humildade também para saber que, quando o time tem uma solução ou plano melhor, devemos sim seguir com a solução ou plano melhor. Que bom que você tem uma equipe capaz de evoluir o que vc tá fazendo. Time vai explodir!
-
+É importante e essencial comunicar-se, manter um diálogo adequado promovendo a discussão saudável e resolução do problema ou assunto tratado. É preciso focar na solução e lidar as vezes com situações de stress ou injustiça com profissionalismo, mantendo tom ético e respeitoso. Humildade é uma ferramenta importantíssima! Quando o time tem uma solução ou plano melhor, devemos sim seguir com a solução ou plano melhor. Que bom que você tem uma equipe capaz de evoluir o que vc tá fazendo. Time vai explodir! Promova e fomente a discussão de ideias!
 
 ## O lado bom da liderança técnica! 👼
 
@@ -317,11 +338,11 @@ Preocupe-se com o liderado e desafie-o diretamente, abra o caminho para o cresci
 
 Você será o guia para as decisões de arquitetura, escolha de tecnologias, planejamento dos projetos do time. Você tem a visão macro e o poder para guiar o time. Entender o plano nesse nível e contribuir ativamente em decisões importantes é bem legal.
 
-Com grandes poderes é claro que vem grandes responsabilidades!
+Com grandes poderes é claro que vem grandes responsabilidades! Atue com a seriedade e profissionalismo que o cargo exige. Seja o guia que o time precisa.
 
 #### Mentor do time 🧙‍♀️
 
-O Tech Lead vai guiar os devs com menos experiência seja nas tecnologias, decisões arquiteturais, desenho de soluções ou regras de negócio. Você é o guia deles no desconhecido, enquanto desconhecido for. Auxiliar no crescimento e ser o engate para a evolução costuma ser bem gratificante.
+O Tech Lead vai guiar os devs com menos experiência, seja nas tecnologias, decisões arquiteturais, desenho de soluções ou regras de negócio. Você é o guia deles no desconhecido enquanto desconhecido for. Auxiliar no crescimento e ser o engate para a evolução de pessoas costuma ser bem gratificante.
 
 ### Aprendizado Contínuo 💪
 
@@ -331,7 +352,7 @@ Da necessidade de estar sempre antenado com novas tecnologias e ferramentas, vem
 
 O sucesso e bom desempenho na carreira de Tech Lead vão te projetar e liderança e empresa vão te reconhecer mais, promovendo o avanço na sua carreira e no seu salário. Vão ver que você é capaz de assumir responsabilidades mais significantes, naturalmente considerando você para posições que requeiram responsabilidades mais "parrudas".
 
-Sua liderança também vai ter influência e ajudar a moldar a cultura de todo o time de desenvolvimento e da empresa. A promoção de um ambiente produtivo, onde é possível errar (vamos acertar antes de entregar, fiquem tranquilos 😅) e promover ideias inovativas vai reverberar nos outros times e na empresa. O reconhecimento dentro de casa é o marketing que você precisa para o reconhecimento fora de casa. Digamos "no bairro".
+Sua liderança também vai ter influência e ajudar a moldar a cultura de todo o time de desenvolvimento e da empresa. A promoção de um ambiente produtivo, onde é possível errar (vamos acertar antes de entregar, fiquem tranquilos 😅) e promover ideias inovativas vai reverberar nos outros times e na empresa. O reconhecimento dentro de casa é o marketing que você precisa para o reconhecimento fora de casa.
 
 ## Conclusão 🏁
 
@@ -392,3 +413,7 @@ https://dev.to/thawkin3/lessons-from-a-tech-lead-roles-responsibilities-and-word
 https://chat.openai.com/share/8a137b39-95cc-48ac-a953-f14f4f78e450
 
 *⚠️ Sei que a fonte acima envolve muita polêmica. Porém, desde que você trate o cara acima como um assistente arrogante que precisa sempre de revisão e as regras permitam usá-lo, você vai ficar bem. Talvez eu precise ler as regras: evoluir isso aí, hein. ⚠️*
+
+## Agradecimentos
+
+Obrigado Copilot, que sempre tinha comentários e conclusões interessantes para o que eu ia escrevendo.
