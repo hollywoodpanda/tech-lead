@@ -26,6 +26,9 @@
     - [Riscos pro Tech Lead](#riscos-pro-tech-lead)
     - [Riscos pro time](#riscos-pro-time)
     - [O Tech Lead é um facilitador de Líderes, o que abre portas](#o-tech-lead-é-um-facilitador-de-líderes-o-que-abre-portas)
+      - [Se chega alguém novo no time, o time precisa de um **TREINADOR**](#se-chega-alguém-novo-no-time-o-time-precisa-de-um-treinador)
+      - [Se há desafios de arquitetura, o time precisa de um **ARQUITETO** experiente](#se-há-desafios-de-arquitetura-o-time-precisa-de-um-arquiteto-experiente)
+      - [Quando há conflitos internos, o time precisa de um **MEDIADOR**](#quando-há-conflitos-internos-o-time-precisa-de-um-mediador)
   - [O lado ruim da liderança técnica 😈](#o-lado-ruim-da-liderança-técnica-)
     - [Raramente codamos 😪](#raramente-codamos-)
     - [Mudança de Contexto 😵‍💫](#mudança-de-contexto-)
@@ -35,13 +38,14 @@
       - [E o que fazer para controlar o custo ou quando atingimos o limite? 🤯](#e-o-que-fazer-para-controlar-o-custo-ou-quando-atingimos-o-limite-)
     - [Voltou a ser júnior quando virou Tech Lead 👶](#voltou-a-ser-júnior-quando-virou-tech-lead-)
       - [Como dev você tinha o apoio do Tech Lead](#como-dev-você-tinha-o-apoio-do-tech-lead)
-    - [Trabalhar com pessoas 🧑‍🎨👨‍✈️🧟‍♀️🧜‍♀️🙎‍♀️](#trabalhar-com-pessoas-️️️️)
+    - [Trabalhar com pessoas 🧑‍🎨👨🧟‍♀️🧜‍♀️🙎‍♀️](#trabalhar-com-pessoas-️️️)
   - [O lado bom da liderança técnica! 👼](#o-lado-bom-da-liderança-técnica-)
     - [Ser o Guia 🔦](#ser-o-guia-)
       - [Mentor do time 🧙‍♀️](#mentor-do-time-️)
     - [Aprendizado Contínuo 💪](#aprendizado-contínuo-)
     - [Reconhecimento e Avanço na Carreira 🙌](#reconhecimento-e-avanço-na-carreira-)
-  - [Conclusão 💤](#conclusão-)
+  - [Conclusão 🏁](#conclusão-)
+  - [Referências 🛜](#referências-)
 
 
 ## Quem sou eu?
@@ -70,8 +74,6 @@ Estou nessa há uns três meses. Um experimento interessantíssimo, mas bem desa
 
 O que um Tech Lead faz vai variar de empresa para empresa. Vou falar aqui um pouco do que já vi e fazer um geralzão do que normalmente é esperado de um Tech Lead.
 
-https://www.harrisonclarke.com/blog-2023/what-it-takes-to-become-a-technical-leader
-
 ### Estar aberto pro crescimento
 
 Precisamos estar antenados em novas ferramentas, paradigmas, estratégias... Ser aberto, estar disposto a novos desafios, buscar ideias inovativas e lidar com dificuldades de forma criativa e concisa são qualidades que vão te ajudar a "abrir o mato pro time passar".
@@ -99,8 +101,6 @@ Ouvir é o ato de receber o som, escutar é o ato de prestar atenção no som, e
 ### Liderar por exemplo
 
 Bons líderes não somente ditam recomendações para o time, como também seguem e respeitam essas mesmas recomendações. O Tech Lead possivelmente é um dev que inspirou o time, seja com sua performance, com suas ideias ou iniciativas - e com isso adquiriu autoridade e foi promovido a Tech Lead. E lembrando que "Líder Técnico" tem "técnico", mas tem "líder" também. É preciso conhecimento técnico e liderança.
-
-https://medium.com/criteo-engineering/your-first-90-days-as-a-tech-lead-f975967f5d2d
 
 ### Construir e propagar a visão (motivação e objetivos)
 
@@ -132,8 +132,6 @@ Você é o mentor técnico do time, exerce um papel de liderança e tem experiê
 
 Veja o que a empresa já promove em construção de carreiras e use isso a favor do time. Se não houver algo assim na empresa, promova você mesmo! Crie um plano de carreira, incentive o time a buscar certificações, cursos, treinamentos, conhecimento, etc. Ajude-os a alavancar suas carreiras.
 
-https://www.ironhack.com/uk/en/blog/what-is-a-tech-lead
-
 ### Toma decisões de arquitetura e design de software
 
 Como Tech Lead você vai ajudar seu time a encontrar o melhor pattern e arquitetura para determinado problema, considerando as ferramentas à disposição. O time vai precisar da sua experiência para ser o mais assertivo possível no planejamento, ganhando eficiência e agilidade quando alcançar o desenvolvimento.
@@ -164,8 +162,6 @@ O Tech Lead deve ser a mão acolhedora, que serve o time e ajuda quando ajuda é
 
 ## Precisamos de um Tech Lead? (Pra que serve)
 
-http://vvgomes.com/we-dont-need-tech-leads/
-
 A mera existência de um Tech Lead no time traz possíveis benefícios e malefícios.
 
 ### Riscos pro Tech Lead
@@ -186,23 +182,15 @@ A mera existência de um Tech Lead no time traz possíveis benefícios e malefí
 
 ### O Tech Lead é um facilitador de Líderes, o que abre portas
 
-- Se chega alguém novo no time, o time precisa de um **TREINADOR**
-
-https://www.linkedin.com/pulse/onboarding-dos-times-de-desenvolvimento-francisco-barroso/?originalSubdomain=pt
+#### Se chega alguém novo no time, o time precisa de um **TREINADOR**
 
 Alguém que vai treinar o novo membro do time nas ferramentas, processos, cultura, etc. do time. Alguém que vai ajudar o novo membro a se sentir confortável e fazê-lo sentir-se parte do time.
 
-- Se há desafios de arquitetura, o time precisa de um **ARQUITETO** experiente
-
-https://www.simplilearn.com/tutorials/software-career-resources/how-to-become-a-software-architect
+#### Se há desafios de arquitetura, o time precisa de um **ARQUITETO** experiente
 
 Alguém que vai criar planos, desenhos técnicos e bolar soluções para os desafios arquiteturais de um projeto. Vai ajudar com processos, ferramentas, tecnologias e no plano para o time seguir.
 
-- Quando há conflitos internos, o time precisa de um **MEDIADOR**
-
-https://mediationblog.kluwerarbitration.com/2019/07/30/mediation-and-leadership/
-
-https://stahl.ind.br/desafio-adaptativo-x-problema-tecnico/
+#### Quando há conflitos internos, o time precisa de um **MEDIADOR**
 
 Líderes costumam ser vistos como provedores de soluções e respostas. 
 
@@ -226,8 +214,6 @@ Se faltam recursos, o Tech Lead pode bolar uma ideia de mocks, ou ambientes de t
 
 - Quando precisa-se negociar e integrar-se com outros times, precisamos de um **EMBAIXADOR**.
 
-https://www.linkedin.com/pulse/so-youre-merging-two-teams-12-keys-getting-results-sweeney-chrp/
-
 Quando dois times, com culturas e processos possivelmente diferentes precisam negociar ou integrar-se, é alguém que vai entender as necessidades e dores de ambos os times. Alguém que promove um espaço de respeito e confiança na mescla de experiência, processos e aprendizados. A ponte entre os dois mundos.
 
 ---
@@ -235,8 +221,6 @@ Quando dois times, com culturas e processos possivelmente diferentes precisam ne
 É difícil acumularmos todas essas características numa única pessoa. O Tech Lead deve ser o facilitador e promotor dessas qualidades no time. O **OLHEIRO**, o que habilita essas qualidades. **O "Leader Maker"**. Quando todas as qualidades estão presentes no time, podemos exponencializar a criação de times que fomentam liderança!
 
 ## O lado ruim da liderança técnica 😈
-
-https://www.getclockwise.com/blog/what-is-a-tech-lead
 
 ### Raramente codamos 😪
 
@@ -253,10 +237,6 @@ Precisamos mudar o foco de ser melhor desenvolvedor para ser melhor líder técn
 
 
 ### Mudança de Contexto 😵‍💫
-
-https://www.atlassian.com/blog/productivity/context-switching
-
-https://timelyapp.com/blog/context-switching
 
 São diversos tópicos, em diferentes graus de complexidade, e com necessidades diferentes. Algumas vezes a mudança de contexto é apenas intelectual, uma definição ou discussão - o que é mais fácil. Mas muitas vezes envolve tarefas manuais além do trabalho mental, que é mais difícil.
 
@@ -314,7 +294,7 @@ Então, se surgir um problema que você não tenha a resposta ou não saiba como
 
 Documente processos e soluções para problemas comuns, uma base de conhecimento ajuda muito. Quando uma decisão rápida precisa ser tomada sobre alguma coisa, isso vai auxiliar com o contexto necessário para tomar uma decisão assertiva.
 
-### Trabalhar com pessoas 🧑‍🎨👨‍✈️🧟‍♀️🧜‍♀️🙎‍♀️
+### Trabalhar com pessoas 🧑‍🎨👨🧟‍♀️🧜‍♀️🙎‍♀️
 
 Você vai ouvir, conversar e negociar bastante. 
 
@@ -324,8 +304,6 @@ Muitos dos problemas que você vai enfrentar são de natureza técnica, mas voc�
 
 As vezes explicar e justificar problemas para pessoas que não vão ficar felizes em saberem do problema. 
 
-https://dev.to/thawkin3/lessons-from-a-tech-lead-roles-responsibilities-and-words-of-advice-ldj
-
 Em outras vezes você vai precisar ter conversas difíceis com seus liderados, passar feedbacks negativos. 
 
 Preocupe-se com o liderado e desafie-o diretamente, abra o caminho para o crescimento dele.
@@ -334,12 +312,6 @@ Preocupe-se com o liderado e desafie-o diretamente, abra o caminho para o cresci
 
 
 ## O lado bom da liderança técnica! 👼
-
-TODO: O lado bom da liderança técnica. Eu busquei internamente e encontrei o avanço na carreira e reconhecimento apenas. Os outros motivos tive que pedir ajuda.
-
-https://chat.openai.com/share/8a137b39-95cc-48ac-a953-f14f4f78e450
-
-⚠️ Sei que a fonte acima envolve muita polêmica, ainda mais na casa que estamos, o ambiente acadêmico. Porém, desde que você trate o cara acima como um assistente arrogante que precisa sempre de revisão e as regras permitam usá-lo, você vai ficar bem. Talvez eu precise ler as regras: evoluir isso aí, hein. ⚠️
 
 ### Ser o Guia 🔦
 
@@ -361,10 +333,62 @@ O sucesso e bom desempenho na carreira de Tech Lead vão te projetar e lideranç
 
 Sua liderança também vai ter influência e ajudar a moldar a cultura de todo o time de desenvolvimento e da empresa. A promoção de um ambiente produtivo, onde é possível errar (vamos acertar antes de entregar, fiquem tranquilos 😅) e promover ideias inovativas vai reverberar nos outros times e na empresa. O reconhecimento dentro de casa é o marketing que você precisa para o reconhecimento fora de casa. Digamos "no bairro".
 
-## Conclusão 💤
+## Conclusão 🏁
 
-Ser Tech Lead é desafiador, mas também é uma ótima oportunidade para crescimento, evolução na carreira, reconhecimento, aprendizado contínuo e liderança. Você promove a si mesmo enquanto promove a carreira dos seus liderados, se torna o *Ultimate Fighting Mentor*.
+Ser Tech Lead é desafiador, mas também é uma ótima oportunidade para crescimento, evolução na carreira, reconhecimento, aprendizado contínuo e liderança. Você promove a si mesmo ajudando a promover a carreira dos seus liderados, o *Ultimate Fighting Mentor*.
 
 Segue o Github da apresentação e para contato. Tamo junto!
 
+Muito obrigado a todos. 🙏
+
 TODO: QRCode do meu Github
+
+## Referências 🛜
+
+*Responsabilidades e papel do Tech Lead* 
+
+https://www.harrisonclarke.com/blog-2023/what-it-takes-to-become-a-technical-leader
+https://medium.com/criteo-engineering/your-first-90-days-as-a-tech-lead-f975967f5d2d
+https://www.ironhack.com/uk/en/blog/what-is-a-tech-lead
+
+*Riscos do Tech Lead*
+
+http://vvgomes.com/we-dont-need-tech-leads/
+
+*Tipo de Liderança - Treinador*
+
+https://www.linkedin.com/pulse/onboarding-dos-times-de-desenvolvimento-francisco-barroso/?originalSubdomain=pt
+
+*Tipo de Liderança - Arquiteto*
+
+https://www.simplilearn.com/tutorials/software-career-resources/how-to-become-a-software-architect
+
+*Tipo de Liderança - Mediador*
+
+https://mediationblog.kluwerarbitration.com/2019/07/30/mediation-and-leadership/
+
+https://stahl.ind.br/desafio-adaptativo-x-problema-tecnico/
+
+*Tipo de Liderança - Embaixador*
+
+https://www.linkedin.com/pulse/so-youre-merging-two-teams-12-keys-getting-results-sweeney-chrp/
+
+*Lado ruim da liderança técnica*
+
+https://www.getclockwise.com/blog/what-is-a-tech-lead
+
+*Mudança de contexto*
+
+https://www.atlassian.com/blog/productivity/context-switching
+
+https://timelyapp.com/blog/context-switching
+
+*Trabalhar com pessoas*
+
+https://dev.to/thawkin3/lessons-from-a-tech-lead-roles-responsibilities-and-words-of-advice-ldj
+
+*Lado bom da liderança técnica*
+
+https://chat.openai.com/share/8a137b39-95cc-48ac-a953-f14f4f78e450
+
+*⚠️ Sei que a fonte acima envolve muita polêmica. Porém, desde que você trate o cara acima como um assistente arrogante que precisa sempre de revisão e as regras permitam usá-lo, você vai ficar bem. Talvez eu precise ler as regras: evoluir isso aí, hein. ⚠️*
